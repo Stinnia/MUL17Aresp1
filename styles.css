@@ -66,9 +66,9 @@ nav a {
     display: block;
     padding: 14px 20px;
     color: #FFF;
-    font-size: 17px;
+    font-size: smaller;
     text-decoration: none;
-	text-align: center;
+	text-align: left;
 }
 nav a:hover {
     background-color: #212121;
