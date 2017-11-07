@@ -38,6 +38,20 @@ nav a {
 nav a:hover {
     background-color: #212121;
 }
+/* dropdown menu styles */
+nav ul ul {
+	display: none;
+	position: absolute;
+}
+/* display dropdowns on hover */
+nav ul li:hover > ul {
+	display: inherit;
+	background-color: #AA898A;
+}
+nav ul ul li {
+	display: block;
+	width: 131px;
+}
 
 @media screen and (max-width : 768px) {
 h1 {
@@ -53,5 +67,16 @@ nav ul li {
 	text-align: center;
 	width: 100%;
 	border-bottom: 1px solid white;
+}
+/* responsive dropdown styles*/
+nav ul li:hover > ul {
+	position: static;
+	display: block;
+	width: 100%;
+}
+	nav ul ul li {
+	display: block;
+	width: 100%;
+	background-color: #BB898A;
 }
 }
