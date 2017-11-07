@@ -41,36 +41,17 @@ nav a:hover {
 
 @media screen and (max-width : 768px) {
 h1 {
-    font-size: smaller;
+    font-size: larger;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
-	footer {
+footer {
 		display: none;
 	}	
 
-nav {
-    background-color: #AA898A;
-}
-nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 nav ul li {
-    margin: 0px;
-    display: block;
-    background-color: #AA898A;
-}
-nav a {
-    display: block;
-    padding: 14px 20px;
-    color: #FFF;
-    font-size: smaller;
-    text-decoration: none;
 	text-align: center;
-}
-nav a:hover {
-    background-color: #212121;
+	width: 100%;
+	border-bottom: 1px solid white;
 }
 }
