@@ -52,9 +52,16 @@ nav ul ul li {
 	display: block;
 	width: 131px;
 }
+.myStyle {
+	display: block;
+}
+button {
+	display: none;
+}
 
 @media screen and (max-width : 768px) {
-h1 {
+
+	h1 {
     font-size: larger;
     text-align: center;
     margin-top: 0px;
@@ -79,4 +86,10 @@ nav ul li:hover > ul {
 	width: 100%;
 	background-color: #BB898A;
 }
+	button {
+	display: block;
+}
+	nav {
+		display: none;
+	}
 }
